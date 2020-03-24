@@ -1,6 +1,7 @@
 import multiapp as ma
 print("====Loading Multiapp=====")
 print("Enter help for help, and exit to exit!")
+print("Your app downloads are provided by Portapps.io,nodejs, and the Python software foundation")
 import time
 import os,json,itertools
 import shutil
@@ -46,9 +47,9 @@ def showLicense(fileiter):
             break
     answer = ""
     while answer == "":
-        answer= input("Now do you agree to the license(s)?")
+        answer= input("Now do you agree to the license(s)? ")
     return answer
-prompt = "MutliApp>"
+prompt = "MutliApp> "
 repo = ma.readRepo("repo.json")
 config = ma.readRepo("multiapp.json")
 while True:
@@ -125,7 +126,7 @@ while True:
             repo = ma.readRepo("repo.json")
         elif lcmd[0] == "delete":
             if len(lcmd) > 1:
-                response = input("Delete "+lcmd[1])
+                response = input("Delete "+lcmd[1]+" ? ")
                 if response.lower().startswith("y"):
                     shutil.rmtree(os.path.join(os.getcwd(),lcmd[1]))
         elif lcmd[0] == "exit":
