@@ -117,10 +117,11 @@ while True:
                 ma.downloadFile(config["repourl"],"repo.json")
                 ma.downloadFile(config["self"],"multiapp.json")
                 ma.downloadFile(config["license"],"LISCENSES")
+                print("To reload the repository type reload")
             else:
                 print("ok")
         elif lcmd[0] == "reload":
-            print("Reloading repo")
+            print("Reloading repository")
             repo = ma.readRepo("repo.json")
         elif lcmd[0] == "delete":
             if len(lcmd) > 1:
