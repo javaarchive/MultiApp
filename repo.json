@@ -17,6 +17,11 @@
 "url":"https://github.com/portapps/discord-ptb-portable/releases/download/0.0.51-7/discord-ptb-portable-win32-0.0.51-7.7z",
 "startfile":"discord-ptb-portable.exe",
 "id":"11"
+},{
+"name":"Discord 0.0.306-3 64 Bits",
+"url":"https://github.com/portapps/discord-portable/releases/download/0.0.306-3/discord-portable-win32-0.0.306-3.7z",
+"startfile":"discord-portable.exe",
+"id":"11B"
 },
 {
 "name":"VSCodium 1.43.0 64 Bits",
@@ -76,5 +81,11 @@
 "id":"20",
 "license":154,
 "tags":["developement"]
+},{
+"name":"Beaker Browser 0.8.10-3 64 bit",
+"url":"https://github.com/portapps/beaker-browser-portable/releases/download/0.8.10-3/beaker-browser-portable-win64-0.8.10-3.7z",
+"startfile":"beaker-browser-portable.exe",
+"id":"21",
+"tags":[]
 }
 ]
