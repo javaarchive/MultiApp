@@ -50,6 +50,7 @@ def showLicense(fileiter):
     return answer
 prompt = "MutliApp>"
 repo = ma.readRepo("repo.json")
+config = ma.readRepo("multiapp.json")
 while True:
     command = input(prompt)
     lcmd = smartSplit(command)
@@ -110,6 +111,17 @@ while True:
                 ma.openFile(os.path.join(os.getcwd(),location,app["startfile"]))
             else:
                 print("Not enough info")
+        elif lcmd[0] == "update":
+            answer = input("Are you sure about this? If the response sent is invalid your multiapp insatllation can break. ")
+            if answer.lower().startswith("y"):
+                ma.downloadFile(config["repourl"],"repo.json")
+                ma.downloadFile(config["self"],"multiapp.json")
+                ma.downloadFile(config["license"],"LISCENSES")
+            else:
+                print("ok")
+        elif lcmd[0] == "reload":
+            print("Reloading repo")
+            repo = ma.readRepo("repo.json")
         elif lcmd[0] == "delete":
             if len(lcmd) > 1:
                 response = input("Delete "+lcmd[1])

@@ -25,3 +25,9 @@ def readRepo(filename):
     repo = json.loads(f.read())
     f.close()
     return repo
+def readConfig(filename):
+    import json
+    f = open(filename, "r")
+    repo = json.loads(f.read())
+    f.close()
+    return repo

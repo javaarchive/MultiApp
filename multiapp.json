@@ -1,0 +1,6 @@
+{
+"name":"MultiApp",
+"repourl":"https://cdn.jsdelivr.net/gh/javaarchive/MultiApp@master/repo.json",
+"self":"https://cdn.jsdelivr.net/gh/javaarchive/MultiApp@master/multiapp.json",
+"LICENSE":"https://cdn.jsdelivr.net/gh/javaarchive/MultiApp@master/LISCENSES"
+}
