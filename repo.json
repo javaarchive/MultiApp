@@ -1,0 +1,80 @@
+[
+{
+"name":"Python 3.7.7 64 Bit",
+"url": "https://www.python.org/ftp/python/3.7.7/python-3.7.7-embed-amd64.zip",
+"startfile":"python.exe",
+"license":2512,
+"id":"10",
+"tags":["development"]
+},
+{
+"name":"Brave 1.4.96-50 64 Bits",
+"url":"https://github.com/portapps/brave-portable/releases/download/1.4.96-50/brave-portable-win64-1.4.96-50.7z",
+"startfile":"brave-portable.exe",
+"id":"12"
+},{
+"name":"Discord PTB 0.0.51-7 64 Bits",
+"url":"https://github.com/portapps/discord-ptb-portable/releases/download/0.0.51-7/discord-ptb-portable-win32-0.0.51-7.7z",
+"startfile":"discord-ptb-portable.exe",
+"id":"11"
+},
+{
+"name":"VSCodium 1.43.0 64 Bits",
+"url":"https://github.com/portapps/vscodium-portable/releases/download/1.43.0-37/VSCodium-win64-1.43.0.zip",
+"startfile":"vscodium-portable.exe",
+"id":"13",
+"tags":["development"]
+},
+{
+"name":"WaterFox 2020.01 64 Bits",
+"url":"https://github.com/portapps/waterfox-portable/releases/download/2020.01-10/waterfox-portable-win64-2020.01-10.7z",
+"startfile":"waterfox-portable.exe",
+"license":1,
+"id":"14"
+},
+{
+"name":"UnGoogled Chrome - Sans Integration",
+"url":"https://github.com/portapps/ungoogled-chromium-portable/releases/download/80.0.3987.149-2/ungoogled-chromium-portable-win64-80.0.3987.149-2.7z",
+"startfile":"ungoogled-chromium-portable.exe",
+"id":"15"
+},{
+"name":"Nodejs 13.11.0 with NPM 6.13.7 64 Bit",
+"url":"https://nodejs.org/dist/v13.11.0/node-v13.11.0-win-x64.zip",
+"startfile":"node.exe",
+"id":"16",
+"license":980,
+"tags":["development"]
+},
+{
+"name":"Nodejs 13.11.0 with NPM 6.13.7 32 Bit",
+"url":"https://nodejs.org/dist/v13.11.0/node-v13.11.0-win-x86.zip",
+"startfile":"node.exe",
+"id":"17",
+"license":980,
+"tags":["development"]
+},
+{
+"name":"Nodejs LTS 12.16.1 with NPM 6.13.4 64 Bit",
+"url":"https://nodejs.org/dist/v12.16.1/node-v12.16.1-win-x64.zip",
+"startfile":"node.exe",
+"id":"18",
+"license":980,
+"tags":["development"]
+},
+{
+"name":"Nodejs LTS 12.16.1 with NPM 6.13.4 32 Bit",
+"url":"https://nodejs.org/dist/v12.16.1/node-v12.16.1-win-x86.zip",
+"startfile":"node.exe",
+"id":"19",
+"license":980,
+"tags":["development"]
+},
+{
+"name":"PyPy Python 3.6",
+"url":"https://bitbucket.org/pypy/pypy/downloads/pypy2.7-v7.3.0-win32.zip",
+"startfile":"pypy2.7-v7.3.0-win32\\pypy.exe",
+"id":"20",
+"license":154,
+"tags":["developement"]
+}
+]
